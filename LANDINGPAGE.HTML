@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>reset.consult</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #32156362, #5e228644);
+            background-image: url('fundo-de-papel-de-parede-colorido-embacado-artistico.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 50px 20px;
+            margin: 0;
+        }
+
+        header, footer {
+            background-color: rgba(32, 13, 97, 0.801);
+            padding: 20px 10px;
+            font-size: 1rem;
+        }
+
+        header h2, footer p {
+            margin: 0;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1.1rem;
+            background-color: #002058b4;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 9px;
+            cursor: pointer;
+            transition: background-color 0.4s ease;
+        }
+        .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 20px;
+        }
+        .limpa-nome {
+        background-color: rgba(42, 9, 85, 0.671);
+        border-radius: 10px;
+        padding: 30px 20px;
+        margin: 40px auto;
+        color: #ffffff;
+        }
+
+        .limpa-nome h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        }
+
+        .limpa-nome-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        }
+
+        .limpa-nome-img {
+        max-width: 300px;
+        border-radius: 100px;
+        box-shadow: 0 0 10px #000000;
+        }
+
+        .limpa-nome-texto {
+        max-width: 500px;
+        text-align: center;
+        }
+
+        .limpa-nome-texto p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        }
+
+        .limpa-nome-imagens {
+        display:flow-root;
+        gap: 50px;
+        flex-wrap:wrap;
+        }
+
+
+        button:hover {
+            background-color: #29064e;
+            }
+
+        button:active {
+            background-color: #4a8df1;
+            }
+
+        .saudacao {
+            margin-top: 30px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            animation: fadeIn 1s ease-out;
+            text-shadow: #000000;
+            }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>
+            Reset: serviços de limpa nome
+        </h2>
+    </header>
+
+    <main>
+        <h1>
+            <img src="logo_reset_transparent-removebg-preview (1).png" width="200" height="200" alt="logo reset">
+        </h1>
+    </main>
+
+    <div class="container">
+        <section class="limpa-nome">
+            <h2>O que é o Limpa Nome?</h2>
+            <p>
+                O serviço de <strong>Limpa Nome</strong> é uma oportunidade para renegociar suas dívidas e retirar seu CPF de cadastros de inadimplência como SPC ou Serasa.
+                É uma chance de reorganizar sua vida financeira com descontos e condições especiais!
+            </p>
+            <div class="limpa-nome-imagens">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Pessoa com nome limpo" width="120" height="120">
+                <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" alt="Negociação de dívidas" width="120" height="120">
+            </div>
+        </section>
+    </div>
+
+
+<button id="botaoSaudacao">Fale Conosco!</button>
+<div class="saudacao"></div>
+    <footer>
+        <p>
+            <a href="https://www.instagram.com/reset.consult/" target="_blank">@reset.consult | </a>
+            <a href="https://api.whatsapp.com/send?phone=5581983495581" target="_blank">(81) 98349-5581</a>
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById("botaoSaudacao").addEventListener("click", function () {
+            window.location.href = "http://api.whatsapp.com/send?phone=5581983495581";
+        });
+    </script>
+
+</body>
+</html>
