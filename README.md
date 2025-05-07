@@ -14,6 +14,7 @@ Visão Geral
 
 
 Estrutura do Projeto
+
 reset-consult/
 index.html            
 formulario.html     
@@ -25,7 +26,9 @@ Clique em "Fale Conosco!" para acessar o formulário interativo.
 
 Tecnologias Utilizadas
 HTML
+
 CSS(incluindo Bulma)
+
 JavaScript (interação de botão e mensagem)
 
 Funcionalidades
