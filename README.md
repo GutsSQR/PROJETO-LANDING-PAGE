@@ -15,12 +15,11 @@ Visão Geral
 
 Estrutura do Projeto
 reset-consult/
-│
-├── index.html            
-├── formulario.html     
-├── fundo-de-papel-de-parede-colorido-embacado-artistico.jpg
-├── logo_reset_transparent-removebg-preview (1).png
-└── README.md          
+index.html            
+formulario.html     
+fundo-de-papel-de-parede-colorido-embacado-artistico.jpg
+logo_reset_transparent-removebg-preview (1).png
+README.md          
 Como usar
 Clique em "Fale Conosco!" para acessar o formulário interativo.
 
