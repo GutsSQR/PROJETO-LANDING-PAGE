@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato - Reset</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #280d45, #4d198f);
+            color: #fff;
+            text-align: center;
+            padding: 40px;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 15px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #29064e;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #4a8df1;
+        }
+
+        .mensagem {
+            margin-top: 20px;
+            font-weight: bold;
+            display: none;
+            color: #2db80a;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Nos dê seu feedback!</h2>
+    <form id="formContato">
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+        <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem ou avaliação..." rows="5" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div class="mensagem" id="mensagemEnviada">
+        ✅ Informações enviadas com sucesso! Agradecemos seu contato.
+    </div>
+
+    <script>
+        document.getElementById("formContato").addEventListener("submit", function (e) {
+            e.preventDefault();
+            document.getElementById("mensagemEnviada").style.display = "block";
+            this.reset();
+        });
+    </script>
+
+</body>
+</html>
