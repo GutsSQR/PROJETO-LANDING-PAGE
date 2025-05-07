@@ -16,12 +16,21 @@ Visão Geral
 Estrutura do Projeto
 
 reset-consult/
-index.html            
-formulario.html     
+
+index.html     
+
+formulario.html  
+
 fundo-de-papel-de-parede-colorido-embacado-artistico.jpg
+
 logo_reset_transparent-removebg-preview (1).png
-README.md          
+
+README.md 
+
 Como usar
+
+O site explica o serviço de limpa nome e permite o usuario entrar em contato com a empresa
+
 Clique em "Fale Conosco!" para acessar o formulário interativo.
 
 Tecnologias Utilizadas
