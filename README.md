@@ -22,9 +22,6 @@ reset-consult/
 ├── logo_reset_transparent-removebg-preview (1).png
 └── README.md          
 Como usar
-Clone o repositório:
-git clone https://github.com/seu-usuario/reset-consult.git
-
 Clique em "Fale Conosco!" para acessar o formulário interativo.
 
 Tecnologias Utilizadas
